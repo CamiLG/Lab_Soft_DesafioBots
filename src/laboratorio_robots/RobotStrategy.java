@@ -6,5 +6,6 @@ public interface RobotStrategy {
 	public void onRun();
 	public void onHitByBullet();
 	public void onScannedRobot();
-	//public void onHitWall();
+	public void onHitWall();
+	public void onHitRobot();
 }
